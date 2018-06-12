@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">蓝牙小助手</string>
+    <string name="disconnected">断开的</string>
+    <string name="connected">连接的</string>
+    <string name="ble_not_supported">不支持蓝牙</string>
+    <string name="error_bluetooth_not_supported">不支持蓝牙</string>
+    <string name="ble_need_location">需要打开蓝牙</string>
+
+</resources>

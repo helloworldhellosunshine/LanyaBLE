@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.xuexi.lanyable.CircleWaveDivergenceView
+        android:id="@+id/search_device_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#123451"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+   <FrameLayout
+       android:background="@color/colorPrimary"
+       android:layout_width="match_parent"
+       android:layout_height="?attr/actionBarSize"
+       android:layout_alignParentBottom="true"
+       android:layout_alignParentLeft="true"
+       android:layout_alignParentStart="true">
+       <LinearLayout
+           android:orientation="horizontal"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+           <Button
+               android:id="@+id/connect"
+               android:text="开始扫描"
+               android:layout_weight="1"
+               android:layout_width="0dp"
+               android:layout_height="match_parent" />
+           <Button
+               android:id="@+id/disconnect"
+               android:text="双击断开连接"
+               android:layout_weight="1"
+               android:layout_width="0dp"
+               android:layout_height="match_parent" />
+           <Button
+               android:id="@+id/send"
+               android:text="发送值"
+               android:layout_weight="1"
+               android:layout_width="0dp"
+               android:layout_height="match_parent" />
+           <Button
+               android:id="@+id/next"
+               android:text="查看周围蓝牙设备"
+               android:layout_weight="1"
+               android:layout_width="0dp"
+               android:layout_height="match_parent" />
+       </LinearLayout>
+</FrameLayout>
+</RelativeLayout>
