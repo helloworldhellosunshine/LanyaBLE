@@ -38,6 +38,7 @@ public class Around extends ListActivity {
     private Handler mHandler;
 
     private static final int REQUEST_ENABLE_BT = 1;
+
     // Stops scanning after 10 seconds.
     private static final long SCAN_PERIOD = 10000;
 
